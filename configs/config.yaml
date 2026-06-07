@@ -1,0 +1,19 @@
+model:
+  pretrained_model: microsoft/trocr-base-handwritten
+
+data:
+  train_csv: data/annotations/train.csv
+  valid_csv: data/annotations/valid.csv
+
+training:
+  batch_size: 4
+  epochs: 10
+  learning_rate: 5e-5
+
+image:
+  width: 384
+  height: 384
+
+save:
+  checkpoint_dir: models/checkpoints
+  final_model_dir: models/final_model
