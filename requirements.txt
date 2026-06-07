@@ -1,0 +1,14 @@
+torch
+torchvision
+transformers
+datasets
+opencv-python
+numpy
+pandas
+matplotlib
+scikit-learn
+Pillow
+evaluate
+jiwer
+gradio
+accelerate
